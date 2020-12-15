@@ -1,9 +1,10 @@
 [package]
-name = "hello_cargo"
+name = "hello-world"
 version = "0.1.0"
-authors = ["Jonathan Rodriguez Sanchez <jonathan.rodriguez.sanchez@u-erre.mx>"]
+authors = ["Jonathan Rodriguez Sanchez <jonathan.rodriguezs@softtek.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix-web = "3"
